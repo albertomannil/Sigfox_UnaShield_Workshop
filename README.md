@@ -6,7 +6,7 @@ Must add a monitoring feature for the following sensor(s): temperature.
 
 Code for sending a basic Sigfox message using the UnaShield:
 
-**libraries and constants**
+**Libraries and Constants**
 
 ```c++
 #include "SIGFOX.h"                         //  Include the unabiz-arduino library.
