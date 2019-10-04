@@ -6,7 +6,7 @@ Must add a monitoring feature for the following sensor(s): temperature.
 
 Code for sending a basic Sigfox message using the UnaShield:
 
-```
+```c++
 #include "SIGFOX.h"                         //  Include the unabiz-arduino library.
 static const String device = "g88pi";       //  Set this to your device name if you're using UnaBiz Emulator.
 static const bool useEmulator = false;      //  Set to true if using UnaBiz Emulator.
